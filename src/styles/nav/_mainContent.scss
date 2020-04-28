@@ -1,0 +1,10 @@
+.nav-main-content{
+  position: absolute;
+  top: $layout-top-height;
+  right: $layout-side-right-width;
+  bottom: $layout-bottom-height;
+  padding: 10px;
+  transition: left .15s linear;
+  background-image: linear-gradient(#2a2e33 14px, transparent 0), linear-gradient(90deg, white 1px, transparent 0);
+  background-size: 15px 15px, 15px 15px;
+}

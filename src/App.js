@@ -1,26 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Chart, Interval} from 'bizcharts';
+import {TopBar, SiderLeftBar, SiderRightBar, MainContent, BottomBar} from './views/nav'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// 数据源
+    const data = [
+        {genre: 'Sports', sold: 275},
+        {genre: 'Strategy', sold: 115},
+        {genre: 'Action', sold: 120},
+        {genre: 'Shooter', sold: 350},
+        {genre: 'Other', sold: 150}
+    ];
+
+    return (
+        <div className="App">
+            <TopBar>
+                TopBar
+            </TopBar>
+            <SiderLeftBar>
+                SiderLeftBar
+            </SiderLeftBar>
+            <SiderRightBar>
+                SiderRightBar
+            </SiderRightBar>
+            <MainContent>
+                <Chart height={320} autoFit data={data}>
+                    <Interval position="genre*sold"/>
+                </Chart>
+            </MainContent>
+            <BottomBar>
+                BottomBar
+            </BottomBar>
+        </div>
+    );
 }
 
 export default App;
