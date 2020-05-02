@@ -1,8 +1,9 @@
 .nav-sider-right{
-  position: absolute;
   top: $layout-top-height;
   right: 0;
   bottom: 0;
   width: $layout-side-right-width;
-  background: $color-dark-4;
+  //background: $color-dark-4;
+  background: white;
+  z-index: 2000;
 }

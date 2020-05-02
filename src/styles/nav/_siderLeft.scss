@@ -1,8 +1,40 @@
 .nav-sider-left{
-  position: absolute;
-  left: 0;
+  position: fixed;
+  width: $layout-side-left-width;
   top: $layout-top-height;
   bottom: $layout-bottom-height;
-  width: $layout-side-left-width;
-  background: $color-dark-4;
+  background: $color-dark-6;
+  z-index: 1000;
+  &.show{
+    left: 0px;
+  }
+  &.hide{
+    left: -$layout-side-left-width;
+  }
+  transition: left .15s linear;
+  .sider-left-title{
+    height: 32px;
+    color: #ececec;
+    line-height: 32px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    .sider-left-title-text{
+      flex: 1;
+    }
+    .sider-left-flexd{
+      width: 28px;
+      text-align: center;
+      cursor: pointer;
+      span{
+        font-size: 16px;
+        &.isFlexd{
+          color: $color-dodger-shade;
+        }
+        &.onFlexd{
+          color: $color-white;
+        }
+      }
+    }
+}
 }

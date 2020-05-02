@@ -1,9 +1,22 @@
 .nav-top{
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: $layout-top-height;
   background: $color-dark-4;
+  color: $color-white;
+  z-index: 1000;
   display: flex;
+  >div{
+    line-height: $layout-top-height;
+  }
+  .toggle-sider-bar{
+    width: $layout-side-left-width;
+    color: white;
+    span{
+      padding-left: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
 }

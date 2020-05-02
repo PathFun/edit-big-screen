@@ -1,10 +1,191 @@
 .nav-main-content{
-  position: absolute;
   top: $layout-top-height;
   right: $layout-side-right-width;
   bottom: $layout-bottom-height;
-  padding: 10px;
+  padding: 14px;
   transition: left .15s linear;
   background-image: linear-gradient(#2a2e33 14px, transparent 0), linear-gradient(90deg, white 1px, transparent 0);
   background-size: 15px 15px, 15px 15px;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 7px; /*滚动条宽度*/
+    height: 7px; /*滚动条高度*/
+  }
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 0px; /*滚动条的背景区域的圆角*/
+    background-color: transparent; /*滚动条的背景颜色*/
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 0px; /*滚动条的圆角*/
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: rgb(67, 75, 85); /*滚动条的背景颜色*/
+  }
+  &.show{
+    left: 199px;
+  }
+  &.hide{
+    left: -1px;
+  }
+  .content-style{
+    user-select: none;
+    position: relative;
+    transition: all .3s;
+    transform-origin: 0px 0px;
+    overflow: hidden;
+    .content-move{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .dra_res{
+        color: #FFF;
+        box-sizing: border-box;
+        border: 1px solid transparent;
+        background: transparent;
+        .chart-item-button{
+          display: none;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 20px;
+          height: 20px;
+          background-color: #09f;
+          color: #fff;
+          text-align: center;
+          line-height: 20px;
+          font-size: 18px;
+          z-index: 2;
+          cursor: pointer;
+          >div{
+            width: 14px;
+            height: 13px;
+            margin: 3px;
+            background: url("../../../public/images/delet.png")no-repeat;
+            background-size: 100% 100%;
+          }
+          &.copy{
+            left: 20px;
+            >div{
+              background: url("../../../public/images/copy.png")no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+        }
+        .hide-chart{
+          .grid-line-hide{
+            display: none;
+          }
+        }
+        .active-chart{
+          .grid-line-hide{
+            display: block;
+            position: absolute;
+            &.grid-line-top {
+              width: 0;
+              height: 10000px;
+              left: -2px;
+              transform: translateY(-100%);
+            }
+            &.grid-line-label {
+              padding: 3px;
+              transform: translate(-100%, -100%);
+              color: #09f;
+              white-space: nowrap;
+            }
+            &.grid-line-left {
+              width: 10000px;
+              height: 0;
+              top: -1px;
+              transform: translateX(-100%);
+            }
+          }
+        }
+        .drag-box{
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+        }
+      }
+      .dra_res:hover{
+        border-color: $color-dodger;
+        background: 0px 0px / 100% 100% rgba(23, 151, 191, 0.2);
+        .chart-item-button{
+          display: block;
+        }
+      }
+      .dra_res.active-rnd{
+        border-color: $color-dodger;
+        background: 0px 0px / 100% 100% rgba(23, 151, 191, 0.2);
+      }
+      .active-rnd {
+        .handle-r {
+          width: 5px;
+          height: 12px;
+          top: 50%;
+          margin-top: -6px;
+          right: -3px;
+          background: $color-dodger;
+        }
+        .handle-l{
+          width: 5px ;
+          height: 12px ;
+          top: 50% ;
+          margin-top: -6px;
+          left: -3px ;
+          background: $color-dodger;
+        }
+        .handle-t{
+          width: 12px ;
+          height: 5px ;
+          left: 50% ;
+          margin-right: -6px;
+          top: -3px ;
+          background: $color-dodger;
+        }
+        .handle-b{
+          width: 12px ;
+          height: 5px ;
+          left: 50% ;
+          margin-right: -6px;
+          bottom: -3px ;
+          background: $color-dodger;
+        }
+        .handle-br{
+          width: 12px ;
+          height: 12px ;
+          border-right: 3px solid $color-dodger;
+          border-bottom: 3px solid $color-dodger;
+        }
+        .handle-tr{
+          width: 12px ;
+          height: 12px ;
+          border-right: 3px solid $color-dodger;
+          border-top: 3px solid $color-dodger;
+        }
+        .handle-tl{
+          width: 12px ;
+          height: 12px ;
+          border-left: 3px solid $color-dodger;
+          border-top: 3px solid $color-dodger;
+        }
+        .handle-bl{
+          width: 12px ;
+          height: 12px ;
+          border-left: 3px solid $color-dodger;
+          border-bottom: 3px solid $color-dodger;
+        }
+      }
+      .content-background-style {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-size: 100% 100%;
+      }
+    }
+
+  }
 }
