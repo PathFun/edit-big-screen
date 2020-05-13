@@ -2,54 +2,198 @@
   "propsSchema": {
     "type": "object",
     "properties": {
-      "autoFit": {
-        "title": "自适应图表",
-        "type": "string"
+      "baseStyle": {
+        "title": "基本配置",
+        "type": "object",
+        "properties": {
+          "name": {
+            "title": "大屏名称",
+            "type": "string"
+          },
+          "remarks": {
+            "title": "大屏描述",
+            "type": "string"
+          },
+          "width": {
+            "type": "string",
+            "title": "大屏宽度",
+            "ui:options": {
+              "suffix": "px"
+            }
+          },
+          "height": {
+            "type": "string",
+            "title": "大屏高度",
+            "ui:options": {
+              "suffix": "px"
+            }
+          }
+        }
       },
-
-      "width": {
-        "title": "宽",
-        "type": "string",
-        "ui:hidden": "{{rootValue.autoFit === 'true'}}"
+      "bgStyle": {
+        "title": "大屏背景",
+        "type": "object",
+        "properties": {
+          "isColor": {
+            "type": "boolean",
+            "title": "背景模式"
+          },
+          "backgroundImg": {
+            "type": "string",
+            "title": "背景图片",
+            "format": "image",
+            "ui:hidden": "{{rootValue.isColor === true}}"
+          },
+          "backgroundColor": {
+            "type": "string",
+            "title": "背景颜色",
+            "format": "color",
+            "ui:labelWidth": 80,
+            "ui:hidden": "{{rootValue.isColor === false}}"
+          },
+          "opacity": {
+            "type": "number",
+            "title": "背景透明度",
+            "ui:options": {
+              "min": 0,
+              "max": 1,
+              "step": 0.1
+            }
+          }
+        }
       },
-      "height": {
-        "title": "高",
-        "type": "string",
-        "ui:hidden": "{{rootValue.autoFit === 'true'}}"
-      },
-      "padding": {
-        "title":"内边距",
-        "type": "array"
+      "workerMark": {
+        "type": "object",
+        "title": "水印配置",
+        "properties": {
+          "creation": {
+            "type": "boolean",
+            "title": "开启水印"
+          },
+          "width": {
+            "type": "number",
+            "title": "画布宽度",
+            "ui:options": {
+              "min": 10,
+              "max": 1000
+            },
+            "ui:hidden": "{{rootValue.creation === false}}"
+          },
+          "height": {
+            "type": "number",
+            "title": "画布高度",
+            "ui:options": {
+              "min": 10,
+              "max": 1000
+            },
+            "ui:hidden": "{{rootValue.creation === false}}"
+          },
+          "x": {
+            "type": "number",
+            "title": "x轴位置",
+            "ui:options": {
+              "min": 10,
+              "max": 1000
+            },
+            "ui:hidden": "{{rootValue.creation === false}}"
+          },
+          "y": {
+            "type": "number",
+            "title": "y轴位置",
+            "ui:options": {
+              "min": 10,
+              "max": 1000
+            },
+            "ui:hidden": "{{rootValue.creation === false}}"
+          },
+          "txt": {
+            "type": "string",
+            "title": "水印文本",
+            "ui:hidden": "{{rootValue.creation === false}}"
+          },
+          "mode": {
+            "type": "string",
+            "title": "渲染模式",
+            "ui:hidden": "{{rootValue.creation === false}}"
+          },
+          "fontSize": {
+            "type": "number",
+            "title": "字体大小",
+            "ui:hidden": "{{rootValue.creation === false}}",
+            "ui:options": {
+              "min": 5,
+              "max": 48
+            }
+          },
+          "color": {
+            "type": "string",
+            "title": "字体颜色",
+            "format": "color",
+            "ui:labelWidth": 80,
+            "ui:hidden": "{{rootValue.creation === false}}"
+          },
+          "alpha": {
+            "type": "number",
+            "title": "文本透明度",
+            "ui:options": {
+              "min": 0,
+              "max": 1,
+              "step": 0.1
+            },
+            "ui:hidden": "{{rootValue.creation === false}}"
+          },
+          "angle": {
+            "type": "number",
+            "title": "文本倾斜度",
+            "ui:options": {
+              "min": -90,
+              "max": 90
+            },
+            "ui:hidden": "{{rootValue.creation === false}}"
+          }
+        }
       }
     }
   },
   "uiSchema": {
-    "autoFit": {
-      "ui:widget": "myRadioButton",
-      "ui:options": {
-        "defaultValue": "true",
-        "children": [
-          {
-            "label": "是",
-            "value": "true"
-          },
-          {
-            "label": "否",
-            "value": "false"
-          }
-        ]
+    "bgStyle": {
+      "isColor": {
+        "ui:options": {
+          "defaultValue": true,
+          "children": [
+            {
+              "label": "背景颜色",
+              "value": true
+            },
+            {
+              "label": "背景图片",
+              "value": false
+            }
+          ]
+        }
       }
     },
-    "padding": {
-      "ui:widget": "myPadding",
-      "ui:options": {
-
+    "workerMark": {
+      "mode": {
+        "ui:widget": "booleanButton",
+        "ui:options": {
+          "defaultValue": "svg",
+          "children": [
+            {
+              "label": "canvas",
+              "value": "canvas"
+            },
+            {
+              "label": "svg",
+              "value": "svg"
+            },
+            {
+              "label": "element",
+              "value": "element"
+            }
+          ]
+        }
       }
     }
-  },
-  "formData": {
-    "autoFit": "true",
-    "x1": "",
-    "x2": ""
   }
 }

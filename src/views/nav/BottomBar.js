@@ -1,5 +1,5 @@
 import React, {useContext, useMemo} from 'react';
-import {storeContext} from '../../store/store';
+import {storeContext} from '@store/store';
 import {Slider} from 'antd';
 import {MinusSquareOutlined, PlusSquareOutlined} from '@ant-design/icons';
 

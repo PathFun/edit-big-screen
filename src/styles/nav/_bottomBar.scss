@@ -3,8 +3,8 @@
   height: $layout-bottom-height;
   left: 0px;
   right: $layout-side-right-width;
-  position: relative;
-  z-index: 2000;
+  z-index: 1000;
+  background: $color-dark-5;
   .icon-wrapper {
     position: absolute;
     padding: 0px 20px;

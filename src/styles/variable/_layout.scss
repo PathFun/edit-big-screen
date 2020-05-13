@@ -1,4 +1,8 @@
 $layout-top-height: 45px;
-$layout-side-left-width: 200px;
+$layout-side-left-width: 230px;
 $layout-side-right-width: 300px;
-$layout-bottom-height: 30px
+$layout-drag-content-width: 200px;
+$chart-menu-width: 150px;
+$chart-list-width: $layout-side-left-width - $layout-drag-content-width;
+$chart-box-width: $layout-side-left-width - $layout-drag-content-width + $chart-menu-width;
+$layout-bottom-height: 30px;

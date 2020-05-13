@@ -5,7 +5,6 @@ import {matchesSelectorAndParentsTo, addEvent, removeEvent, addUserSelectStyles,
   removeUserSelectStyles} from './utils/domFns';
 import {createCoreData, getControlPosition, snapToGrid} from './utils/positionFns';
 import {dontSetMe} from './utils/shims';
-import log from './utils/log';
 
 import type {EventHandler, MouseTouchEvent} from './utils/types';
 import type {Element as ReactElement} from 'react';
@@ -280,9 +279,7 @@ export default class DraggableCore extends React.Component<DraggableCoreProps, D
     const {x, y} = position;
     // Create an event object with all the data parents need to make a decision here.
     const coreEvent = createCoreData(this, x, y);
-    log('DraggableCore: handleDragStart: %j', coreEvent);
     // Call event handler. If it returns explicit false, cancel.
-    log('calling', this.props.onStart);
     const shouldUpdate = this.props.onStart(e, coreEvent);
     if (shouldUpdate === false || this.mounted === false) return;
 
@@ -360,8 +357,6 @@ export default class DraggableCore extends React.Component<DraggableCoreProps, D
       if (this.props.enableUserSelectHack) removeUserSelectStyles(thisNode.ownerDocument);
     }
 
-    log('DraggableCore: handleDragStop: %j', coreEvent);
-
     // Reset the el.
     this.setState({
       dragging: false,
@@ -371,7 +366,6 @@ export default class DraggableCore extends React.Component<DraggableCoreProps, D
 
     if (thisNode) {
       // Remove event handlers
-      log('DraggableCore: Removing handlers');
       removeEvent(thisNode.ownerDocument, dragEventFor.move, this.handleDrag);
       removeEvent(thisNode.ownerDocument, dragEventFor.stop, this.handleDragStop);
     }

@@ -1,6 +1,6 @@
 import React, {useContext, useMemo} from 'react';
-import {storeContext} from '../../store/store';
-import {ContentScreen} from '../../components'
+import {storeContext} from '@store/store';
+import {ContentScreen} from '@components'
 
 function MainContent() {
     const {state, dispatch} = useContext(storeContext);

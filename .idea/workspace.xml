@@ -2,61 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="537ea654-41d6-4021-91af-bc5490f2b81a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/charts-config/chart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/charts-config/screen.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/chartComponents/ContentScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/chartComponents/SingleChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/formWedgets/RadioButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/Risize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/RisizeAndDrag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/Draggable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/DraggableCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/cjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/domFns.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/getPrefix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/log.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/positionFns.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/shims.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/resizeAndArag/resizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/Provider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/charts-config/drag-item-base.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mock/line-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema/Chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/chart-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/dispath-resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/form-render-mapping.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/charts-config/chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/charts-config/screen.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/charts-config/screen.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chartComponents/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chartComponents/ContentScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chartComponents/ContentScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chartComponents/SingleChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chartComponents/SingleChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/formWedgets/RadioButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/formWedgets/BooleanButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/resizeAndArag/RisizeAndDrag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resizeAndArag/RisizeAndDrag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/DraggableCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/DraggableCore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/positionFns.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/positionFns.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/nav/_bottomBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/nav/_bottomBar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/nav/_mainContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/nav/_mainContent.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/nav/_siderLeft.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/nav/_siderLeft.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/nav/_siderRight.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/nav/_siderRight.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/nav/_topBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/nav/_topBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/variable/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variable/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variable/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variable/_layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/nav/BottomBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/nav/BottomBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/nav/MainContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/nav/MainContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/nav/SiderLeftBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/nav/SiderLeftBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/nav/SiderRightBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/nav/SiderRightBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/nav/TopBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/nav/TopBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,61 +47,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/types.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/charts-config/screen.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/store.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1111">
-              <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+            <state relative-caret-position="175">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#791#1518#0" />
-                <element signature="e#1917#2145#0" />
-                <element signature="e#2154#2271#0" />
-                <element signature="e#2280#2390#0" />
-                <element signature="e#2399#2500#0" />
-                <element signature="e#2509#2681#0" />
-                <element signature="e#2690#2873#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/chartComponents/SingleChart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/chartComponents/ContentScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
+                <element signature="n#!!block;n#properties#0;n#!!block;n#bgStyle#0;n#!!block;n#properties#0;n#!!block;n#propsSchema#0;n#!!top" />
+                <element signature="n#!!block;n#workerMark#0;n#!!block;n#properties#0;n#!!block;n#propsSchema#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -133,8 +62,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/nav/TopBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="50">
+              <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/nav/SiderLeftBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="38" column="58" lean-forward="true" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -142,11 +83,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/styles/nav/_topBar.scss">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/nav/_siderLeft.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="2325">
+              <caret line="93" column="34" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/variable/_layout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="17" selection-start-line="4" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/nav/MainContent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="88" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/nav/_mainContent.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/chart-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,36 +158,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>active-chart</find>
-      <find>gird</find>
-      <find>Draggable</find>
-      <find>snapToGrid</find>
-      <find>grid</find>
-      <find>DraggableEventHandler</find>
-      <find>dragingOrrResizeing</find>
-      <find>parseInt</find>
-      <find>DraggableRoot</find>
-      <find>_defineProperty</find>
-      <find>c</find>
-      <find>createDraggableData</find>
-      <find>handleDrag</find>
+      <find>scaleChange</find>
+      <find>DRAPEDGEDETECTION</find>
+      <find>EDGEDETECTION</find>
       <find>scale</find>
-      <find>draggableCoreProps</find>
-      <find>getControlPosition</find>
-      <find>transform</find>
-      <find>dontSetMe</find>
-      <find>svgTransform</find>
-      <find>onDrag</find>
-      <find>handleDragStop</find>
-      <find>onStop</find>
-      <find>positionOffset</find>
-      <find>lastX</find>
-      <find>DeltaY</find>
-      <find>log</find>
-      <find>deltaX</find>
-      <find>console</find>
-      <find>pointer</find>
+      <find>document.body</find>
+      <find>ONDRAGORRRESIZE</find>
+      <find>===</find>
+      <find>autoFit</find>
+      <find>RadioButton</find>
+      <find>flex-row-reverse</find>
       <find>creation</find>
+      <find>zIndex</find>
+      <find>CHANGESCREEN</find>
+      <find>CHANGECURRENTEDIT</find>
+      <find>activeIndex</find>
+      <find>CHANGEPOSITIONWIDTHSIEZ</find>
+      <find>CHANGEPOSITION</find>
+      <find>CHANRGEACTIVE</find>
+      <find>sameSrceen</find>
+      <find>CHANGITEMBASE</find>
+      <find>COPYITEMS</find>
+      <find>baseConfg</find>
+      <find>onResize</find>
+      <find>log</find>
+      <find>alias</find>
+      <find>Math</find>
+      <find>$layout-side-right-width</find>
+      <find>$layout-side-left-width</find>
+      <find>flex</find>
+      <find>chart-item-list</find>
     </findStrings>
     <replaceStrings>
       <replace>types</replace>
@@ -211,33 +203,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/styles/variable/_layout.scss" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/store/Provider.js" />
-        <option value="$PROJECT_DIR$/src/store/context-manager.js" />
-        <option value="$PROJECT_DIR$/src/styles/nav/_siderLeft.scss" />
-        <option value="$PROJECT_DIR$/src/views/nav/SiderLeftBar.js" />
-        <option value="$PROJECT_DIR$/src/views/App.css" />
-        <option value="$PROJECT_DIR$/public/manifest.json" />
-        <option value="$PROJECT_DIR$/config/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/views/nav/TopBar.js" />
-        <option value="$PROJECT_DIR$/src/views/nav/BottomBar.js" />
-        <option value="$PROJECT_DIR$/src/components/chartComponents/index.js" />
-        <option value="$PROJECT_DIR$/src/views/nav/MainContent.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/styles/nav/_bottomBar.scss" />
-        <option value="$PROJECT_DIR$/src/styles/variable/_colors.scss" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/styles/app.scss" />
         <option value="$PROJECT_DIR$/public/chartsConfigs.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/styles/nav/_siderRight.scss" />
-        <option value="$PROJECT_DIR$/src/components/formWedgets/RadioButton.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/public/charts-config/chart.json" />
-        <option value="$PROJECT_DIR$/public/charts-config/screen.json" />
         <option value="$PROJECT_DIR$/src/store/actionTypes.js" />
-        <option value="$PROJECT_DIR$/src/components/chartComponents/SingleChart.js" />
         <option value="$PROJECT_DIR$/node_modules/react-draggable/build/module/DraggableCore.js" />
         <option value="$PROJECT_DIR$/node_modules/react-draggable/build/cjs/DraggableCore.js" />
         <option value="$PROJECT_DIR$/node_modules/react-draggable/build/web/react-draggable.min.js" />
@@ -248,20 +217,43 @@
         <option value="$PROJECT_DIR$/src/components/Rnd.js" />
         <option value="$PROJECT_DIR$/src/components/resizeAndArag/Risize.js" />
         <option value="$PROJECT_DIR$/src/components/resizeAndArag/resizer.js" />
-        <option value="$PROJECT_DIR$/src/styles/nav/_mainContent.scss" />
-        <option value="$PROJECT_DIR$/src/components/resizeAndArag/RisizeAndDrag.js" />
         <option value="$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/domFns.js" />
-        <option value="$PROJECT_DIR$/src/components/resizeAndArag/draggable/DraggableCore.js" />
-        <option value="$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/positionFns.js" />
-        <option value="$PROJECT_DIR$/src/views/nav/SiderRightBar.js" />
-        <option value="$PROJECT_DIR$/src/store/types.js" />
         <option value="$PROJECT_DIR$/src/components/resizeAndArag/draggable/Draggable.js" />
-        <option value="$PROJECT_DIR$/src/store/store.js" />
         <option value="$PROJECT_DIR$/src/components/wokerMark/gwm.js" />
-        <option value="$PROJECT_DIR$/src/components/index.js" />
-        <option value="$PROJECT_DIR$/node_modules/gwm/dist/gwm.js" />
-        <option value="$PROJECT_DIR$/src/components/chartComponents/ContentScreen.js" />
         <option value="$PROJECT_DIR$/src/styles/nav/_topBar.scss" />
+        <option value="$PROJECT_DIR$/node_modules/gwm/dist/gwm.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/styles/nav/_siderRight.scss" />
+        <option value="$PROJECT_DIR$/src/styles/nav/_bottomBar.scss" />
+        <option value="$PROJECT_DIR$/public/charts-config/drag-item-base.json" />
+        <option value="$PROJECT_DIR$/src/components/formWedgets/RadioButton.js" />
+        <option value="$PROJECT_DIR$/src/components/formWedgets/BooleanButton.js" />
+        <option value="$PROJECT_DIR$/public/charts-config/chart.json" />
+        <option value="$PROJECT_DIR$/public/charts-config/screen.json" />
+        <option value="$PROJECT_DIR$/src/components/formWedgets/FormMap.js" />
+        <option value="$PROJECT_DIR$/src/utils/form-render-mapping.js" />
+        <option value="$PROJECT_DIR$/src/components/index.js" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/utils/target-resize.js" />
+        <option value="$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/positionFns.js" />
+        <option value="$PROJECT_DIR$/src/components/resizeAndArag/RisizeAndDrag.js" />
+        <option value="$PROJECT_DIR$/src/components/resizeAndArag/draggable/DraggableCore.js" />
+        <option value="$PROJECT_DIR$/src/views/nav/SiderRightBar.js" />
+        <option value="$PROJECT_DIR$/src/views/nav/MainContent.js" />
+        <option value="$PROJECT_DIR$/src/components/chartComponents/ContentScreen.js" />
+        <option value="$PROJECT_DIR$/src/components/chartComponents/SingleChart.js" />
+        <option value="$PROJECT_DIR$/src/views/nav/BottomBar.js" />
+        <option value="$PROJECT_DIR$/public/mock/line-chart.json" />
+        <option value="$PROJECT_DIR$/config/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/utils/chart-config.js" />
+        <option value="$PROJECT_DIR$/src/schema/Chart.json" />
+        <option value="$PROJECT_DIR$/src/styles/nav/_mainContent.scss" />
+        <option value="$PROJECT_DIR$/src/styles/variable/_layout.scss" />
+        <option value="$PROJECT_DIR$/src/views/nav/TopBar.js" />
+        <option value="$PROJECT_DIR$/src/store/types.js" />
+        <option value="$PROJECT_DIR$/src/store/store.js" />
+        <option value="$PROJECT_DIR$/src/styles/nav/_siderLeft.scss" />
+        <option value="$PROJECT_DIR$/src/views/nav/SiderLeftBar.js" />
       </list>
     </option>
   </component>
@@ -272,10 +264,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-91" />
-    <option name="y" value="33" />
-    <option name="width" value="1707" />
-    <option name="height" value="1054" />
+    <option name="x" value="-78" />
+    <option name="y" value="65" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -292,13 +284,24 @@
             <path>
               <item name="edit-big-screen" type="b2602c69:ProjectViewProjectNode" />
               <item name="edit-big-screen" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edit-big-screen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edit-big-screen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edit-big-screen" type="b2602c69:ProjectViewProjectNode" />
               <item name="edit-big-screen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edit-big-screen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edit-big-screen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edit-big-screen" type="b2602c69:ProjectViewProjectNode" />
@@ -324,7 +327,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/resizeAndArag" />
+    <property name="last_opened_file_path" value="F:/ggdownload/react-chart-editor-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -336,16 +339,17 @@
     <property name="ts.external.directory.path" value="F:\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Webstormproject\edit-big-screen\src\components\resizeAndArag" />
-      <recent name="F:\Webstormproject\edit-big-screen\public\images" />
-      <recent name="F:\Webstormproject\edit-big-screen\src\styles\variable" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Webstormproject\edit-big-screen\src\utils" />
       <recent name="F:\Webstormproject\edit-big-screen\src\components\resizeAndArag" />
       <recent name="F:\Webstormproject\edit-big-screen\src" />
       <recent name="F:\Webstormproject\edit-big-screen\src\views\nav" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Webstormproject\edit-big-screen\src\schema" />
+      <recent name="F:\Webstormproject\edit-big-screen\src\components\resizeAndArag" />
+      <recent name="F:\Webstormproject\edit-big-screen\public\images" />
+      <recent name="F:\Webstormproject\edit-big-screen\src\styles\variable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -394,7 +398,18 @@
       <workItem from="1588121687104" duration="25238000" />
       <workItem from="1588209710104" duration="15393000" />
       <workItem from="1588253987492" duration="5640000" />
-      <workItem from="1588311676562" duration="47549000" />
+      <workItem from="1588311676562" duration="47912000" />
+      <workItem from="1588671720474" duration="16253000" />
+      <workItem from="1588764375494" duration="12557000" />
+      <workItem from="1588782535182" duration="22000" />
+      <workItem from="1588816778598" duration="9335000" />
+      <workItem from="1588847691831" duration="5746000" />
+      <workItem from="1588902433367" duration="1221000" />
+      <workItem from="1588943756790" duration="4191000" />
+      <workItem from="1588991607084" duration="858000" />
+      <workItem from="1589275327739" duration="106000" />
+      <workItem from="1589288990318" duration="8911000" />
+      <workItem from="1589334435540" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588043359800</created>
@@ -410,21 +425,28 @@
       <option name="project" value="LOCAL" />
       <updated>1588043428333</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1588403139607</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588403139607</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130353000" />
+    <option name="totallyTimeSpent" value="190631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2081138" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2081138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="TypeScript" order="0" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.63123643" />
@@ -433,9 +455,9 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.5672451" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49947312" visible="true" weight="0.03253796" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49947312" visible="true" weight="0.324295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -449,470 +471,365 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/build/module/utils/positionFns.js">
+    <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/domFns.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="280">
+          <caret line="372" column="97" selection-start-line="372" selection-start-column="97" selection-end-line="372" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/typings/test.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/getPrefix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/build/web/react-draggable.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/build/cjs/DraggableCore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="268" column="83" selection-start-line="268" selection-start-column="83" selection-end-line="268" selection-end-column="83" />
-          <folding>
-            <element signature="e#10874#12674#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-rnd/lib/index.es5.js.flow">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3508">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-rnd/lib/index.es5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9946" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-rnd/lib/index.js.flow">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-rnd/lib/index.test.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-rnd/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-rnd/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="102" column="31" lean-forward="true" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/typings/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/typings/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/build/module/utils/getPrefix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-883" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/build/module/utils/domFns.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6697">
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/build/cjs/utils/positionFns.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/build/module/utils/shims.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-rnd/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="420" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-            <element signature="e#2323#2445#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/re-resizable/lib/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!block;n#Enable#0" />
-            <element signature="n#!!block;n#HandleStyles#0" />
-            <element signature="n#!!block;n#HandleClassName#0" />
-            <element signature="n#!!block;n#Size#0" />
-            <element signature="n#!!block;n#NumberSize#0" />
-            <element signature="n#!!block;n#HandleComponent#0" />
-            <element signature="n#!!block;n#ResizableProps#0" />
-            <element signature="n#!!block;n#State#0" />
-            <element signature="e#2926#3051#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/re-resizable/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2095">
-          <caret line="605" column="51" lean-forward="true" selection-end-line="741" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-rnd/lib/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="139" column="21" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#321#425#0" />
-            <element signature="n#!!block;n#ResizableDelta#0" />
-            <element signature="n#!!block;n#Size#0" />
-            <element signature="n#!!block;n#State#0" />
-            <element signature="n#!!block;n#MaxSize#0" />
-            <element signature="n#!!block;n#ResizeEnable#0" />
-            <element signature="n#!!block;n#HandleClasses#0" />
-            <element signature="n#!!block;n#HandleStyles#0" />
-            <element signature="n#!!block;n#HandleComponent#0" />
-            <element signature="n#!!block;n#Props#0" />
-            <element signature="n#Rnd#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/nav/_mainContent.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2538">
-          <caret line="164" column="48" lean-forward="true" selection-start-line="164" selection-start-column="48" selection-end-line="164" selection-end-column="48" />
-          <folding>
-            <element signature="e#1258#2025#0" />
-            <element signature="e#1609#1812#0" />
-            <element signature="e#1829#2015#0" />
-            <element signature="e#2045#2122#0" />
-            <element signature="e#2144#2778#0" />
-            <element signature="e#2796#2915#0" />
-          </folding>
-        </state>
+        <state relative-caret-position="-31" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/resizer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-          <folding>
-            <element signature="e#71#595#0" />
-            <element signature="e#654#981#0" />
-            <element signature="e#1048#1263#0" />
-            <element signature="e#1396#1434#0" />
-            <element signature="e#1446#1484#0" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1573" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/draggable/cjs.js" />
     <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/Risize.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="e#71#595#0" />
-            <element signature="e#654#981#0" />
-            <element signature="e#1048#1263#0" />
-            <element signature="e#1336#1402#0" />
-            <element signature="e#1631#1673#0" />
-            <element signature="e#4480#4988#0" />
-            <element signature="e#5130#31698#0" />
-          </folding>
+        <state relative-caret-position="2125">
+          <caret line="85" column="21" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/build/module/DraggableCore.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/eslint/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650">
-          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
-          <folding>
-            <element signature="e#211#237#0" expanded="true" />
-            <element signature="e#2730#5760#0" />
-            <element signature="e#6741#7284#0" />
-          </folding>
-        </state>
+        <state relative-caret-position="-2928" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/module/utils/log.js">
+    <entry file="file://$PROJECT_DIR$/config/env.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
+        <state relative-caret-position="-1803" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/module/Draggable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding>
-            <element signature="e#530#556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-draggable/build/cjs/Draggable.js">
+    <entry file="file://$PROJECT_DIR$/config/getHttpsConfig.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/log.js">
+    <entry file="file://$PROJECT_DIR$/config/modules.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="-1575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2275">
+          <caret line="91" column="10" lean-forward="true" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/types.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/classnames/index.js">
+    <entry file="file://$PROJECT_DIR$/scripts/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-2723" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/shims.js">
+    <entry file="file://$PROJECT_DIR$/scripts/build.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="17" />
-        </state>
+        <state relative-caret-position="-4531" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/domFns.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/globals.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="284" column="9" selection-start-line="284" selection-start-column="9" selection-end-line="284" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/draggable/DraggableCore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="321" column="26" selection-start-line="321" selection-start-column="22" selection-end-line="321" selection-end-column="36" />
-          <folding>
-            <element signature="e#430#456#0" expanded="true" />
-            <element signature="e#5865#6207#0" />
-            <element signature="e#6767#7563#0" />
-            <element signature="e#8557#8578#0" />
-            <element signature="e#12120#13149#0" />
-            <element signature="e#13206#13340#0" />
-            <element signature="e#13395#13472#0" />
-            <element signature="e#13607#13750#0" />
-            <element signature="e#13806#13948#0" />
-          </folding>
+        <state relative-caret-position="298">
+          <caret line="147" column="12" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/draggable/utils/positionFns.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="123" column="7" lean-forward="true" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
+        <state relative-caret-position="305">
+          <caret line="81" column="22" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="22" />
           <folding>
             <element signature="e#1096#2440#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/editComponents/BaseStyle.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/editComponents/DataSource.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/formWedgets/BooleanButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#20#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/RisizeAndDrag.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
-          <caret line="120" column="43" lean-forward="true" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+        <state relative-caret-position="900">
+          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <element signature="e#1019#1271#0" />
-            <element signature="n#!!block;n#__extends#0" />
-            <element signature="e#1489#1809#0" />
             <element signature="n#!!block;n#__rest#0" />
-            <element signature="e#2323#2445#0" />
-            <element signature="e#2787#2875#0" />
-            <element signature="e#2919#3007#0" />
-            <element signature="e#3031#3342#0" />
-            <element signature="e#3841#4189#0" />
-            <element signature="e#5514#5832#0" />
-            <element signature="e#5885#8840#0" />
-            <element signature="e#8888#9110#0" />
-            <element signature="e#9162#9408#0" />
-            <element signature="e#9474#13991#0" />
-            <element signature="e#14065#14927#0" />
-            <element signature="e#15005#15350#0" />
-            <element signature="e#15399#15534#0" />
-            <element signature="e#15591#15641#0" />
-            <element signature="e#15698#16379#0" />
-            <element signature="e#18296#18431#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/Provider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav/BottomBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/nav/SiderRightBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="350">
+          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding>
-            <element signature="e#129#175#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/resizeAndArag/draggable/Draggable.js">
+    <entry file="file://$PROJECT_DIR$/public/mock/line-chart.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="134" column="44" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="44" />
+        <state relative-caret-position="25">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
           <folding>
-            <element signature="e#9#35#0" expanded="true" />
-            <element signature="n#!!block;n#getDerivedStateFromProps#0;n#Draggable#0" />
+            <element signature="e#12#22#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/types.js">
+    <entry file="file://$PROJECT_DIR$/src/utils/dispath-resize.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="30" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1111">
-          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#791#1518#0" />
-            <element signature="e#1917#2145#0" />
-            <element signature="e#2154#2271#0" />
-            <element signature="e#2280#2390#0" />
-            <element signature="e#2399#2500#0" />
-            <element signature="e#2509#2681#0" />
-            <element signature="e#2690#2873#0" />
-          </folding>
+        <state relative-caret-position="347">
+          <caret line="299" column="57" selection-start-line="299" selection-start-column="57" selection-end-line="299" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gwm/lib/watermark.ts">
+    <entry file="file://$PROJECT_DIR$/public/charts-config/chart.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/bizcharts/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@antv/g2/esm/interface.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/charts-config/screen.json">
+    <entry file="file://$PROJECT_DIR$/node_modules/@antv/g2/esm/interface.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@antv/g2/esm/interface.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46192">
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@antv/g2/esm/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@antv/g2/esm/util/legend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1153">
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@antv/g2/esm/util/padding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@antv/g2/esm/util/scale.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@antv/g2/esm/util/attr.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schema/Chart.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/charts-config/drag-item-base.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/chartComponents/SingleChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#270#893#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gwm/lib/helpers/bindCSS.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gwm/lib/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/gwm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="77" column="47" lean-forward="true" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
-          <folding>
-            <element signature="e#2244#3233#0" />
-            <element signature="e#4920#6477#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gwm/dist/gwm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5027" selection-start-column="5027" selection-end-column="5027" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/chartComponents/ContentScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/variable/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/charts-config/screen.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="n#!!block;n#properties#0;n#!!block;n#bgStyle#0;n#!!block;n#properties#0;n#!!block;n#propsSchema#0;n#!!top" />
+            <element signature="n#!!block;n#workerMark#0;n#!!block;n#properties#0;n#!!block;n#propsSchema#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/nav/TopBar.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/nav/_siderLeft.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="93" column="34" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/variable/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav/MainContent.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <caret line="8" column="88" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/nav/_topBar.scss">
+    <entry file="file://$PROJECT_DIR$/src/styles/nav/_mainContent.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="250">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/chart-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav/SiderLeftBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="38" column="58" lean-forward="true" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

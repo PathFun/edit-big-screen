@@ -1,6 +1,6 @@
 import React, {useReducer,useMemo} from 'react';
 import {Chart, Interval,Line, Point, Legend} from 'bizcharts';
-import {initialState as store, reducer} from "../../store/store";
+import {initialState as store, reducer} from "@store/store";
 function SingleChart() {
     const [state] = useReducer(reducer, store);
 // 数据源

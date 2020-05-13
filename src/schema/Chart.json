@@ -1,0 +1,45 @@
+{
+  "propsSchema": {
+    "type": "object",
+    "properties": {
+      "autoFit": {
+        "title": "自适应图表",
+        "type": "boolean"
+      },
+      "width": {
+        "title": "宽",
+        "type": "string",
+        "ui:hidden": "{{rootValue.autoFit === true}}"
+      },
+      "height": {
+        "title": "高",
+        "type": "string",
+        "ui:hidden": "{{rootValue.autoFit === true}}"
+      },
+      "autoPadding": {
+        "title": "自适应内边距",
+        "type": "boolean"
+      },
+      "padding": {
+        "title":"内边距",
+        "type": "array",
+        "ui:hidden": "{{rootValue.autoPadding === false}}"
+      },
+      "pixelRatio": {
+        "title": "设备像素比",
+        "type": "number"
+      },
+      "errorContent": {
+        "title": "错误展示内容",
+        "type": "string"
+      }
+    }
+  },
+  "uiSchema": {
+    "padding": {
+      "ui:widget": "myPadding",
+      "ui:options": {
+      }
+    }
+  }
+}

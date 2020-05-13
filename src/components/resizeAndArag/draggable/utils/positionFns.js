@@ -143,8 +143,8 @@ function createCoreData(draggable
         // Otherwise calculate proper values.
         return {
             node: node,
-            deltaX: Math.round(x - state.lastX),
-            deltaY: Math.round(y - state.lastY),
+            deltaX: x - state.lastX,
+            deltaY: y - state.lastY,
             lastX: state.lastX,
             lastY: state.lastY,
             x: x,

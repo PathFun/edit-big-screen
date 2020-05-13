@@ -13,10 +13,10 @@ function App() {
                     11111111111111
                 </SiderLeftBar>
                 <SiderRightBar/>
-                <MainContent/>
                 <BottomBar>
                     BottomBar
                 </BottomBar>
+                <MainContent/>
                     </div>
         </Provider>
     );

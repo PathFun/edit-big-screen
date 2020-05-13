@@ -1,7 +1,6 @@
-import SingleChart from './chartComponents/SingleChart'
 import ContentScreen from './chartComponents/ContentScreen'
-import RadioButton from './formWedgets/RadioButton'
+import BooleanButton from './formWedgets/BooleanButton'
 import {RisizeAndDrag} from './resizeAndArag/RisizeAndDrag'
 
-export {SingleChart, ContentScreen, RadioButton, RisizeAndDrag}
+export {ContentScreen, BooleanButton, RisizeAndDrag}
 

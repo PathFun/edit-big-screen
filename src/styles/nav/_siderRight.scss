@@ -5,5 +5,6 @@
   width: $layout-side-right-width;
   //background: $color-dark-4;
   background: white;
-  z-index: 2000;
+  z-index: 1000;
+  overflow-y: auto;
 }
