@@ -1,4 +1,3 @@
-// BooleanButton.js
 import React from 'react';
 import {Radio} from 'antd';
 
