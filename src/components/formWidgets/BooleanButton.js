@@ -1,11 +1,11 @@
 import React from 'react';
 import {Radio} from 'antd';
 
-
-export default function BooleanButton({name, value, onChange, options}) {
+export default function BooleanButton({name, value, onChange, options, disabled}) {
     const defaultChildren = [{label: '是', value: true}, {label: '否', value: false}]
     return (
         <Radio.Group {...options}
+                     disabled={disabled}
                      value={value}
                      onChange={e => onChange(name, e.target.value)}>
             {options.children ? options.children.map((c,i) =>

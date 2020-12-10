@@ -1,13 +1,11 @@
 import React from 'react';
-import {InputNumber} from 'antd';
+import {Input} from 'antd';
 
-
-export default function BooleanButton({name, value, onChange}) {
-
+export default function ArrayNumber({name, value, onChange, disabled}) {
     return (
-        <div style={{display: 'flex'}}>
-            <InputNumber value={value[0]} onChange={value => onChange(name, [value, value[1]])}/>
-            <InputNumber value={value[1]} onChange={value => onChange(name, [value[0], value])}/>
+        <div style={{display: 'flex',  justifyContent: 'space-around', width: '100%'}}>
+            <Input value={value[0]} type="number" disabled={disabled} onChange={e => onChange(name, [e.target.value, value[1]])} addonAfter="px" style={{width: '45%'}}/>
+            <Input value={value[1]} type="number" disabled={disabled} onChange={e => onChange(name, [value[0], e.target.value])} addonAfter="px" style={{width: '45%'}}/>
         </div>
     );
 }

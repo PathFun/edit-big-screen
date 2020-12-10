@@ -2,7 +2,7 @@ export const mapping = {
     default: 'input',
     string: 'input',
     array: 'list',
-    boolean: 'booleanButton',
+    boolean: 'checkbox',
     integer: 'number',
     number: 'number',
     object: 'map',

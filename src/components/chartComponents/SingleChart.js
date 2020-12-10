@@ -1,9 +1,8 @@
 import React, {useReducer,useMemo} from 'react';
-import {Chart, Interval,Line, Point, Legend} from 'bizcharts';
+import { Column } from '@ant-design/charts';
 import {initialState as store, reducer} from "@store/store";
 function SingleChart() {
     const [state] = useReducer(reducer, store);
-// 数据源
     const data = [
         {
             year: "1991",
@@ -42,18 +41,15 @@ function SingleChart() {
             value: 13
         }
     ];
+    const config = {
+        supportCSSTransform: true,
+        data,
+        xField: 'year',
+        yField: 'value',
+    }
 
     return useMemo(()=>{
-        return <Chart
-            padding={[10,20,50,40]}
-            autoFit
-            data={data}
-            scale={{ value: { min: 0 } }}
-        >
-            <Line position="year*value" />
-            <Point position="year*value" color="value"/>
-            <Legend name="value" visible={true} position="right" />
-        </Chart>
+        return <Column {...config} />;
     },[state.items]);
 }
 

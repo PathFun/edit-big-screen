@@ -91,6 +91,14 @@ export default {
             "format": "color",
             "title": "阴影颜色"
         },
+        "strokeOpacity": {
+            "type": "number",
+            "title": "图形边框透明度",
+            "ui:widget": "SliderNumber",
+            "min": 0,
+            "max": 1,
+            "step": 0.01
+        },
         "shadowBlur": {
             "type": "number",
             "title": "高斯模糊系数",

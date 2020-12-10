@@ -130,7 +130,7 @@ function ContentScreen() {
                             <div className="grid-line-hide grid-line-label"
                                  style={scaleChange.lineLabel}>{Math.round(item.baseConfig.position.x)},{Math.round(item.baseConfig.position.y)}</div>
                         </div>
-                        <div className="drag-box">
+                        <div className="drag-box" style={{padding: `${item.baseConfig.padding.top}px ${item.baseConfig.padding.left}px`}}>
                             <SingleChart/>
                         </div>
                     </RisizeAndDrag>

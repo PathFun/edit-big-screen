@@ -72,6 +72,15 @@ export const reducer = (state, action) => {
                     size: {
                         width: 400,
                         height: 260
+                    },
+                    padding: {
+                        top: 0,
+                        left: 0
+                    }
+                },
+                chartConfig: {
+                    tooltip: {
+                        showCrosshairs: false
                     }
                 },
                 sameSrceen: false,
@@ -85,7 +94,6 @@ export const reducer = (state, action) => {
             return Object.assign({}, state, {items: _.pull(items, value)});
         // 复制组件
         case types.COPYITEMS:
-            console.log(value)
             return Object.assign({}, state, {
             items: items.concat(value), maxZIndex: maxZIndex + 1, activeIndex: items.length, activeItem: value});
         // 修改位置
